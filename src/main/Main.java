@@ -36,7 +36,7 @@ public class Main {
                 e.printStackTrace();
             }
         }
-
+        //sample
         startPage.dispose();
         HomePage homePage = new HomePage();
 
