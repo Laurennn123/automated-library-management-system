@@ -1,18 +1,23 @@
 /*
- * Note:
+ * Notes:
  * I'm using Intellij IDEA.
  * Before using this system make sure to follow these steps.
+ * Create a new file project inside of IntelliJ and copy the file in my src to your src. 
  * Install XAMPP Control Panel and Download mysql connector at https://dev.mysql.com/downloads/connector/j/.
- * After downloading extract the ZIP and find the executable mysql-connector.
- * Once you find it go to File> Project Structure> Modules> Name of File> click the plus sign like this + > select JAR> and find the executable mysql that you download.
+ * Select the "Platform Independent" and download the ZIP Archive.
+ * After you downloaded extract the ZIP file and find the executable mysql-connector.
+ * Once you find it go to File> Project Structure> Modules> Name of File> click the plus sign like this symbol "+" > 
+ * select JAR> and find the executable mysql that you download.
  * start the Apache and MySQL at XAMPP Control Panel.
  * Go to browser search http://localhost/dashboard/ and select phpMyAdmin.
  * Create database name studentsinformation.
  * Under of database create table name studentsdetails for those students that are enrolled, and
  * studentsindex for those who borrowed books.
- * under of studentsdetails create a column name StudentNumber(Primary Key), FirstName, MiddleName, LastName, CollegeCourse and CurrentYear. (type:varchar)
- * under of studentsindex create a column name IndexOfStudent, StudentNumber(Primary Key), FirstBookSelected, SecondBookSelected, ThirdBookSelected.
+ * under of studentsdetails create a column name StudentNumber(Primary Key), FirstName, MiddleName, LastName, 
+ * CollegeCourse and CurrentYear. (type:varchar)
+ * under of studentsindex create a column name IndexOfStudent, StudentNumber(Primary Key), FirstBookSelected, 
+ * SecondBookSelected, ThirdBookSelected.
  * insert a value on each column in studentsdetails to identify if the user is enrolled at RTU.
  * insert a value of 0 in IndexOfStudent before start the system.
- * Enjoy.
+ * That's all.
  */
